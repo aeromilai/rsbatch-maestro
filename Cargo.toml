@@ -1,0 +1,20 @@
+[package]
+name = "rsbatch-maestro"
+version = "0.2.0"
+edition = "2021"
+authors = ["aeromilai <github@aeromilai.com>"]
+description = "A Rust crate for flexible batch splitting and management with various strategies."
+repository = "https://github.com/aeromilai/batch-maestro"
+license = "MIT"
+readme = "README.md"
+keywords = ["split", "partition", "distribute", "batch", "optimization"]
+categories = ["algorithms", "mathematics"]
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "even_split_benchmark"
+harness = false
