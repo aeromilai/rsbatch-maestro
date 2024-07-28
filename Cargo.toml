@@ -1,10 +1,10 @@
 [package]
 name = "rsbatch-maestro"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["aeromilai <github@aeromilai.com>"]
 description = "A Rust crate for flexible batch splitting and management with various strategies."
-repository = "https://github.com/aeromilai/batch-maestro"
+repository = "https://github.com/aeromilai/rsbatch-maestro"
 license = "MIT"
 readme = "README.md"
 keywords = ["split", "partition", "distribute", "batch", "optimization"]
