@@ -1,6 +1,6 @@
 // tests/integration_tests.rs
 
-use batch_maestro::even_split;
+use rsbatch_maestro::even_split;
 use std::num::NonZeroUsize;
 
 #[test]
